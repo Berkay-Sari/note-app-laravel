@@ -1,4 +1,4 @@
-<x-layout>
+<x-app-layout>
     <div class="note-container single-note">
         <h1 class="text-3xl py-4">Edit Note: {{ $note->created_at }}</h1>
         <form action="{{ route('note.update', $note) }}" method="POST" class="note">
@@ -12,4 +12,4 @@
             </div>
         </form>
     </div>
-</x-layout>
+</x-app-layout>

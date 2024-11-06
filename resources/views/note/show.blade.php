@@ -1,4 +1,4 @@
-<x-layout>
+<x-app-layout>
     <div class="note-container single-note">
         <div class="note-header">
             <h1 class="text-3xl py-4">Note: {{ $note->created_at }}</h1>
@@ -21,4 +21,4 @@
             <a href="{{ route('note.index') }}" class="note-back-btn">Back to All Notes</a> <!-- Link to return to all notes -->
         </div>
     </div>
-</x-layout>
+</x-app-layout>
